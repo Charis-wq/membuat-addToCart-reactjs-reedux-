@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name":"Laptop",
+            "price": 3.50
+    },
+       {
+            "id": 2,
+            "name":"heandphone",
+            "price": 2.00
+    },
+       {
+            "id": 3,
+            "name":"charger",
+            "price": 1.00
+    }
+    ]
+}
