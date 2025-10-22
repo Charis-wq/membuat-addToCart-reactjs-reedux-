@@ -7,11 +7,11 @@ import './App.css'
 function App() {
 
   return (
-    
-     <Router>
-      <nav style={{ display: "flex", gap: "1rem", justifyContent: "center", margin: "1rem" }}>
-        <Link to="/">Products</Link>
-        <Link to= "/cart">Cart</Link>
+    <div className=''>
+       <Router >
+      <nav className='text-center text-cyan-50 m-3 text-2xl bg-cyan-400  '>
+        <Link className='p-3 hover:text-black' to="/">Products</Link>
+        <Link className='p-3 hover:text-black' to= "/cart">Cart</Link>
       </nav>
 
       <Routes>
@@ -19,6 +19,10 @@ function App() {
         <Route path='/cart' element= {<CartPage/>}></Route>
       </Routes>
      </Router>
+
+    </div>
+    
+    
     
   )
 }
